@@ -1,0 +1,115 @@
+.contactSection {
+    margin-left: 2.2em;
+    &__questions {
+        &__text {
+            font-family: 'Raleway';
+            font-weight: 400;
+            font-size: 2.5em;
+        }
+        &__subTitle {
+            font-family: 'Open Sans';
+            font-weight: 400;
+            font-size: 1em;
+        }
+        &__userInfo {
+            width: 55%;
+            max-width: 19em;
+            margin-top: 1.87em;
+            margin-bottom: 2.5em;
+            &__icon {
+                display: inline-block;
+                vertical-align: middle;
+            }
+            &__data {
+                display: inline-block;
+                font-family: 'Open Sans';
+                font-weight: 600;
+                font-size: 1em;
+                color: #A5A5A5;
+                margin-bottom: 0.6em;
+                width: 80%;
+            }
+        }
+    }
+    &__consenting {
+        width: 100%;
+        padding-bottom: 4em;
+        &__contactData {
+            font-family: 'Open Sans';
+            font-weight: 600;
+            font-size: 0.7em;
+            letter-spacing: 0.20em;
+            color: #08A6E4;
+            &__form {
+                &__text {
+                    display: block;
+                    &__info {
+                        max-width: 20em;
+                    } 
+                }
+                &__input {
+                    &--error {
+                        border: 1px solid red;
+                        border-top: 0;
+                        border-left: 0;
+                        border-right: 0;
+                    }
+                    border: 1px solid #95989A;
+                    border-top: 0;
+                    border-left: 0;
+                    border-right: 0;
+                    width: 90%;
+                    margin-bottom: 1.87em;
+                    padding-top: 1.25em;
+                }
+                &__info {
+                    display: inline-block;
+                    font-family: 'Open Sans';
+                    color: #707070;
+                    letter-spacing: 0;
+                }
+                &__checkbox {
+                    &--error {
+                        border: 0;
+                        outline: 1px solid red;
+                    }
+                    vertical-align: top;
+                    margin-right: 0.5em;
+                    margin-top: 0.3em;
+                    cursor: pointer;
+                    border: 1px solid black;
+                }
+                &__submitButton {
+                    background: #08A6E4;
+                    color: white;
+                    font-family: 'Open Sans';
+                    font-weight: bold;
+                    margin-left: 8em;
+                    margin-top: 1.87em;
+                    padding-bottom: 1.25em;
+                    padding-top: 1.25em;
+                    padding-right: 6em;
+                    padding-left: 6em;
+                    border: solid 1px #08A6E4;
+                    border-radius: 1.87em;
+                    box-shadow: 5px 10px 14px 0px #07ACE64A;
+                    cursor: pointer;
+                }
+            }
+        }
+            &__returnToTopButton {
+                position: relative;
+                top: 4em;
+                left: 17em;
+                background: #08A6E4;
+                color: white;
+                border-radius: 50%;
+                padding-bottom: 2em;
+                padding-top: 2em;
+                font-family: 'Raleway';
+                padding-left: 0.5em;
+                padding-right: 0.5em;
+                cursor: pointer;
+            }
+        }
+    }
